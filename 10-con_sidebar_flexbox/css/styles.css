@@ -49,3 +49,19 @@ p {
 
 
 /** CODIGO AQUI **/
+
+@media (min-width: 768px) {
+    .con-sidebar{
+        display: flex;
+        /* justify-content: space-between; solo se utiliza si tienes un calc */
+        gap: 2rem;
+    }
+
+    aside{
+        flex: 1;
+        /* flex: 0 0 calc(33.3% - 1rem); aqui es cuando se usa el justify*/
+    }
+    article{
+        flex: 3;
+    }
+}
