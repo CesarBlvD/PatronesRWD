@@ -37,3 +37,13 @@ p {
 }
 
 /** CODIGO AQUI **/
+
+.contenedor{
+    max-width: 120rem;
+    width: 95%; /*con with no se usa px se usa porcentaje para que vaya fluida la pagina*/
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+}
